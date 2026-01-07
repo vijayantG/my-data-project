@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+
+# Environment variables
+.env
+
+# MLflow artifacts
+mlruns/
+
+# Docker
+.dockerignore
+
+# Data
+data/*.csv
+data/*.xlsx
+!data/.gitkeep

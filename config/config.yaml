@@ -1,0 +1,16 @@
+data_source: 
+  type: csv 
+  path: "data/sample.csv"
+
+validation: 
+  required_columns:
+    - "job_id"
+    - "job_title"
+    - "salary" 
+
+alert: 
+  email: "admin@example.com"
+
+logging: 
+  level: "INFO"
+  file: "logs/app.log"
